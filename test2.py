@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0，'./venv/lib/python3.6/site-packages')
+sys.path.extend(['d:\program files\anaconda3\lib\site-packages'])
 import streamlit as st
 import numpy as np
 import pandas as pd
