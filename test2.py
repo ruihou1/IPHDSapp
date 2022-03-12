@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 #把标准化过程打包
+import sklearn
 from sklearn.externals import joblib
 ss = joblib.load('E:/DIAPRE/文章最终结果数据/scalarsave')
 from tensorflow.keras.models import load_model
