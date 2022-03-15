@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 #把标准化过程打包
 from tensorflow.keras.models import load_model
-model = load_model('E:/DIAPRE/文章最终结果数据/model.h6')
+model = load_model('model.h6')
 #构建网页
 st.title("welecome to Isolated post-challenge hyperglycemia Decision System (IPHDS)")
 # Using the "with" syntax
