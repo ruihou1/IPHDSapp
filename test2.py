@@ -6,6 +6,7 @@ import pandas as pd
 #把标准化过程打包
 import joblib
 ss = joblib.load('scalarsave')
+from tensorflow.keras.models import load_model
 model = load_model('model.h6')
 #构建网页
 st.title("welecome to Isolated post-challenge hyperglycemia Decision System (IPHDS)")
