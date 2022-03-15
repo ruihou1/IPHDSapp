@@ -4,12 +4,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 #把标准化过程打包
-import sys
-sys.path.extend(['d:\program files\anaconda3\lib\site-packages'])
 import joblib
-ss = joblib.load('E:/DIAPRE/文章最终结果数据/scalarsave')
-from tensorflow.keras.models import load_model
-model = load_model('E:/DIAPRE/文章最终结果数据/model.h6')
+ss = joblib.load('scalarsave')
+model = load_model('model.h6')
 #构建网页
 st.title("welecome to Isolated post-challenge hyperglycemia Decision System (IPHDS)")
 # Using the "with" syntax
