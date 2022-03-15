@@ -6,3 +6,4 @@ streamlit==0.61.0
 pandas==1.0.1
 joblib==0.14.1
 scikit-learn==0.22.1
+h5py==2.10.0
