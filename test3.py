@@ -87,8 +87,8 @@ with st.form(key='my_form'):
                  "HDL": float(HDL),
                  }  # 将列表a，b转换成字典
             test = pd.DataFrame(c, index=[0])  # 将字典转换成为数据框
-            mean = np.load("E:/DIAPRE/文章最终结果数据/mean.npy")
-            std = np.load("E:/DIAPRE/文章最终结果数据/std.npy")
+            mean = np.load("mean.npy")
+            std = np.load("std.npy")
             test1 = (test-mean)/sd
             test2 = pd.DataFrame(test1, columns=test.columns)
             testreslut = model.predict(test2)
