@@ -75,7 +75,6 @@ with st.form(key='my_form'):
             # 先把元组转成数据框
             bmi =  float(Weight) / ( float(Height) *  float(Height))
             # 预测数据  字典转成数据框
-            'Glu0', "HbA1c", "bmi", "age", "hr", "ALT", "TG", "LDL", "sbp", "HDL"
             c = {"Glu0":  float(FPG),
                  "HbAlc":  float(Hb),
                  "bmi": float(bmi),
