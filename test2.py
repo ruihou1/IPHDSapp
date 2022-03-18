@@ -5,7 +5,7 @@ import pandas as pd
 import joblib
 ss = joblib.load('Scaler')
 from tensorflow.keras.models import load_model
-model = load_model('modelann.h6')
+model = load_model('modelann.h5')
 st.header("Welcome to isolated post-challenge hyperglycemia decision system(IPHDS)")
 # Using the "with" syntax
 with st.form(key='my_form'):
